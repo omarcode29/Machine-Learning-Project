@@ -1,0 +1,13 @@
+train: datasets/underwater-images/train.txt
+val: datasets/underwater-images/val.txt
+test: datasets/underwater-images/test.txt
+
+nc: 3
+names: ['fish', 'human', 'robot']
+
+roboflow:
+  workspace: project
+  project: -underwater-images
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/-underwater-images/dataset/1
